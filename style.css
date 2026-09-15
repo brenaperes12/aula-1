@@ -1,0 +1,67 @@
+body { 
+       background-image: url("4aa32a9adfe0e1ca8c3a8d2c1e39ca82.jpg");
+       background-size: cover;
+    }
+
+
+
+h1.pato {
+          color: rgb(83, 83, 168);
+          background-color: rgb(220, 245, 245);
+          text-align: center;
+          border-radius: 50px;
+          width: 400px;
+          margin: auto;
+
+    }
+
+img {
+      width: 200px; 
+      height: 200px; 
+      border-radius: 50%;
+      border: 2px solid rgb(17, 98, 98);
+
+    }
+
+.cachorro {
+      font-size: 24px;
+      font-weight: bold;
+      color: rgb(83, 83, 168);
+             
+        }
+
+.coelho {
+      color: black;
+
+    }
+
+.gato {
+      background-color: rgb(220, 245, 245);
+      width: 200px;
+      border: 2px solid rgb(17, 98, 98);
+      border-radius: 10px;
+      font-style: italic;
+
+    }
+
+h2 {
+     color: rgb(83, 83, 168);
+
+    }
+
+li:hover {
+    color: rgb(11, 11, 175);
+    transition: 0.5s;
+    transform:rotate3d(180, 1, 0, 360deg);
+}
+
+h1.pato:hover {
+    transition: 0.5s;
+    transform:rotate3d(180, 1, 0, 360deg);
+    
+}
+
+img:hover {
+    transition: 0.5s;
+    transform:rotate3d(180, 1, 0, 360deg);
+}
